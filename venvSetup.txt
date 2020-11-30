@@ -1,0 +1,10 @@
+#Sets up virtual env in current directory called "myenv"
+python3 -m venv myenv
+
+#Starts the virtual env
+source myenv/bin/activate
+
+#Any packages installed now will be isolated from any other environments.
+
+#to deactivate current environment
+deactivate
